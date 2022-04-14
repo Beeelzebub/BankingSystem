@@ -1,0 +1,17 @@
+﻿using Microsoft.AspNetCore.Mvc.Filters;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankingSystem.Common.Infrastructure.Filters
+{
+    public class ApiResultFilterAttribute : ResultFilterAttribute
+    {
+        public override async Task OnResultExecutionAsync(ResultExecutingContext context, ResultExecutionDelegate next)
+        {
+
+        }
+    }
+}
